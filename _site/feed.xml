@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Your awesome title</title>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</description>
+    <link>http://yourdomain.com/</link>
+    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 08 Apr 2015 12:03:07 -0300</pubDate>
+    <lastBuildDate>Wed, 08 Apr 2015 12:03:07 -0300</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 08 Apr 2015 09:00:05 -0300</pubDate>
+        <link>http://yourdomain.com/jekyll/update/2015/04/08/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2015/04/08/welcome-to-jekyll.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Secure alternatives to communications</title>
+        <description>I found out last month about a new messaging&amp;nbsp;protocol dubbed &quot;&lt;a href=&quot;https://bitmessage.org/wiki/Main_Page&quot;&gt;BitMessage&lt;/a&gt;&#39;&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;https://bitmessage.org/w/images/f/f1/Bitmessagelogo-reduced.png&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;https://bitmessage.org/w/images/f/f1/Bitmessagelogo-reduced.png&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;The idea underlying it all seems nice:&lt;br /&gt;&lt;br /&gt;I uses a distributed system much like &lt;a href=&quot;http://en.wikipedia.org/wiki/BitTorrent&quot;&gt;Bittorrent&lt;/a&gt;, adding some &quot;Proof of Work&quot; computation to all messages, so sending a message is computationally non-trivial. This has two goals, one makes overcrowding the network very costly in computer power, and makes spamming expensive so much in fact that might eliminate it.&lt;br /&gt;&lt;br /&gt;The routing is done in a way that is p2p so everybody forwards messages and everybody receives everything. This has a downside: the traffic is massive, even if you don&#39;t send anything... this may or may not be an acceptable compromise for the anonymity.&lt;br /&gt;&lt;br /&gt;&amp;nbsp;A Bitmessage address looks like this: &amp;nbsp;&lt;b&gt;&lt;span style=&quot;background-color: white; font-family: sans-serif; font-size: 13px; line-height: 19px;&quot;&gt;BM-&lt;/span&gt;&lt;span style=&quot;background-color: white; font-family: sans-serif; font-size: 13px; line-height: 19px;&quot;&gt;orkCbppXWSqPpAxnz6jnfTZ2djb5pJKDb&lt;/span&gt;&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;( it is a hash of the public key that you use to encrypt the message, and broadcast it). When you receive messages , you try to decrypt every message that you get and then forward them. If you successfully decrypt a message, it means it is for you. After certain time the messages are deleted and no longer forwarded.&lt;br /&gt;&lt;br /&gt;Problems:  The problem with this schema is mainly scalability as the messages go around in increasing numbers, a complete crypto-analysis of the protocol is yet to be done ... the current version is very alpha ( 0.3.5 ) so there is plenty of room for improvement.&lt;br /&gt;&lt;br /&gt;There is a discussion of the potential flaws &lt;a href=&quot;https://bitmessage.org/forum/index.php?topic=1666.0&quot;&gt;here&lt;/a&gt; , still looks very interesting...&lt;br /&gt;&lt;br /&gt;I tried installing on the Mac, it took some time, I had to uninstall Homebrew and reinstall it again. get the source and compile it  along with a brand new local installation of Python and PyQt after that I made it Work.&lt;br /&gt;&lt;br /&gt;&lt;span style=&quot;font-family: sans-serif; font-size: x-small;&quot;&gt;&lt;span style=&quot;line-height: 19px;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-family: sans-serif; font-size: x-small;&quot;&gt;&lt;span style=&quot;line-height: 19px;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;http://1.bp.blogspot.com/-FE3iDwFCu9g/UhAhxGzg8pI/AAAAAAAAARo/3m2KHnB9Y_c/s1600/terminal.jpg&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;380&quot; src=&quot;http://1.bp.blogspot.com/-FE3iDwFCu9g/UhAhxGzg8pI/AAAAAAAAARo/3m2KHnB9Y_c/s640/terminal.jpg&quot; width=&quot;640&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;http://2.bp.blogspot.com/-6QJyzEEG7rw/UhAh103aE9I/AAAAAAAAARw/QT6DFnKAUZs/s1600/window.jpg&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;476&quot; src=&quot;http://2.bp.blogspot.com/-6QJyzEEG7rw/UhAh103aE9I/AAAAAAAAARw/QT6DFnKAUZs/s640/window.jpg&quot; width=&quot;640&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;span style=&quot;font-family: sans-serif; font-size: x-small;&quot;&gt;&lt;span style=&quot;line-height: 19px;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-family: sans-serif;&quot;&gt;&lt;span style=&quot;line-height: 19px;&quot;&gt;Like I said very alpha...&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: sans-serif;&quot;&gt;&lt;span style=&quot;line-height: 19px;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-family: sans-serif; line-height: 19px;&quot;&gt;There is already a lot of people experimenting, gateways to email and even a twitter like service build on top of BitMessage called BitChirp.&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: sans-serif;&quot;&gt;&lt;span style=&quot;line-height: 19px;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-family: sans-serif;&quot;&gt;&lt;span style=&quot;line-height: 19px;&quot;&gt;My address is&amp;nbsp;&lt;/span&gt;&lt;/span&gt;BM-2D7SgNUm35LpmF7fgemBExU8f6UFoHeBNj&lt;br /&gt;&lt;br /&gt;This is a response to the flood of news about the fact that governments ( especially the US), routinely scan people&#39;s communications&lt;br /&gt;&lt;br /&gt;RSA has warnet that their security products are &lt;a href=&quot;http://inagist.com/all/380838271246675969/&quot;&gt;no longer secure&lt;/a&gt;, and there is an ongoing search for new ways of online secure communications. While distributes might be the best bet, in the end if the endpoints are not secure ( Access points, routers, Internet providers), the protocol is useless as a security guard.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;span style=&quot;font-family: sans-serif; font-size: x-small;&quot;&gt;&lt;span style=&quot;line-height: 19px;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;</description>
+        <pubDate>Sun, 22 Sep 2013 12:19:00 -0300</pubDate>
+        <link>http://yourdomain.com/2013/09/22/secure-alternatives-to-communications.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2013/09/22/secure-alternatives-to-communications.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>From connecting people to connecting objects</title>
+        <description>&lt;br /&gt;The smartphone revolution is at it&#39;s peek now, with a clear picture of &amp;nbsp;winners ( Google &#39;s Android, Apple&#39;s iOS , LG, Samsung, HTC) ; and losers ( RIM&#39;s Blackberry, Nokia, MSFT, etc)&lt;br /&gt;&lt;br /&gt;The Success of the smartphone is not just based on how powerful the devices are or the features , but more importantly the ability to do two things that were previously , very hard, very expensive or just impossible a decade or two ago:&lt;br /&gt;&lt;br /&gt;&lt;h3&gt;#1 &amp;nbsp;Sense the environment and information.&lt;/h3&gt;&lt;div&gt;The connected, sensor full phone knows a lot about the environment, time, location, voice, &amp;nbsp;movement, outside conditions: &amp;nbsp;light, &amp;nbsp;noise, weather ( from servers), etc.&amp;nbsp;&lt;/div&gt;&lt;div&gt;It also can connect with the user&#39;s database, social networks, applications, documents, calendars, contact, infer relations, importance of meetings or messages&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;This information user-data + environmental data &amp;nbsp;make the device aware of the present situation and it&#39;s context in a way that personal computers previously couldn&#39;t possible be; thus opening the door for a number of highly innovative applications which will only continue to grow.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;http://3.bp.blogspot.com/-ZBIOgkc3r1A/UgZaD1YJA2I/AAAAAAAAARU/OZgZueMAyt0/s1600/google-glass-main.jpg&quot; imageanchor=&quot;1&quot; style=&quot;clear: left; float: left; margin-bottom: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;213&quot; src=&quot;http://3.bp.blogspot.com/-ZBIOgkc3r1A/UgZaD1YJA2I/AAAAAAAAARU/OZgZueMAyt0/s320/google-glass-main.jpg&quot; width=&quot;320&quot; /&gt;&lt;/a&gt;&lt;a href=&quot;http://3.bp.blogspot.com/-ZBIOgkc3r1A/UgZaD1YJA2I/AAAAAAAAARU/OZgZueMAyt0/s1600/google-glass-main.jpg&quot; imageanchor=&quot;1&quot; style=&quot;clear: left; float: left; margin-bottom: 1em; margin-right: 1em;&quot;&gt;&lt;br /&gt;&lt;/a&gt;&lt;a href=&quot;http://3.bp.blogspot.com/-ZBIOgkc3r1A/UgZaD1YJA2I/AAAAAAAAARU/OZgZueMAyt0/s1600/google-glass-main.jpg&quot; imageanchor=&quot;1&quot; style=&quot;clear: left; float: left; margin-bottom: 1em; margin-right: 1em;&quot;&gt;&lt;br /&gt;&lt;/a&gt;&lt;a href=&quot;http://3.bp.blogspot.com/-ZBIOgkc3r1A/UgZaD1YJA2I/AAAAAAAAARU/OZgZueMAyt0/s1600/google-glass-main.jpg&quot; imageanchor=&quot;1&quot; style=&quot;clear: left; float: left; margin-bottom: 1em; margin-right: 1em;&quot;&gt;&lt;br /&gt;&lt;/a&gt;&lt;a href=&quot;http://3.bp.blogspot.com/-ZBIOgkc3r1A/UgZaD1YJA2I/AAAAAAAAARU/OZgZueMAyt0/s1600/google-glass-main.jpg&quot; imageanchor=&quot;1&quot; style=&quot;clear: left; float: left; margin-bottom: 1em; margin-right: 1em;&quot;&gt;&lt;br /&gt;&lt;/a&gt;&lt;a href=&quot;http://3.bp.blogspot.com/-ZBIOgkc3r1A/UgZaD1YJA2I/AAAAAAAAARU/OZgZueMAyt0/s1600/google-glass-main.jpg&quot; imageanchor=&quot;1&quot; style=&quot;clear: left; float: left; margin-bottom: 1em; margin-right: 1em;&quot;&gt;&lt;br /&gt;&lt;/a&gt;&lt;a href=&quot;http://2.bp.blogspot.com/-HQc1RReesuo/UgZZyIQY_FI/AAAAAAAAARE/A3L8_JThswI/s1600/673474abf712c744534e4fc43318f1a0.png&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;212&quot; src=&quot;http://2.bp.blogspot.com/-HQc1RReesuo/UgZZyIQY_FI/AAAAAAAAARE/A3L8_JThswI/s320/673474abf712c744534e4fc43318f1a0.png&quot; width=&quot;320&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;/div&gt;&lt;h3&gt;#2 Connect people and events 24/7&lt;/h3&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;In today world you can leave your house without keys or without a wallet , but if you leave without your smartphone, you go back. You just can&#39;t be &quot;out of reach&quot;&lt;/div&gt;&lt;div&gt;Some of this is fabricated ( you don&#39;t need to be available at all times, or check facebook or twitter every 5 minutes ) , but some maybe not. We humans need information like we need food and an internet-conected phone my just be as addictive as sugar o potato chips.&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;We are able now to know our friends location without asking them, we can send messages to our family members in five or six different written or spoken ways.&amp;nbsp;&lt;/div&gt;&lt;div&gt;Check in to work , or see what our closest friends or celebrities from around the world are doing RIGHT NOW just as easy as we see the world&#39;s news unfold on twitter hours before they appear on CNN.&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;The combination of awareness and connection is what makes the applications on a phone so powerful and the market so attractive. We have taken the network of communication that goes around the planet and taken from the stillness of the office desks to our pockets and the dynamics of the physical wold.&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;h2&gt;The new frontier(s)&lt;/h2&gt;&lt;div&gt;So, what&#39;s left ?&lt;br /&gt;&lt;br /&gt;What is the next frontier to connect. In short , everything else.&lt;br /&gt;&lt;br /&gt;This is what is called Smart Things or Smart Objects.&lt;br /&gt;&lt;br /&gt;The idea is embedding everyday objects with sensors and transmitting capability: Your Home: doors, windows, alarms, appliances, lights, etc; your car Information in your dashboard and transmitting wireless to your phone and servers ( i.e. the cloud ) ; and even yourself : heart rate monitoring, exercise logging, etc.&lt;br /&gt;&lt;br /&gt;&lt;h4&gt;&lt;br /&gt;The car interface&lt;/h4&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;Apple is pushing very hard to get iOS in the car . This is necessary to get &amp;nbsp;iOS everywhere in your life , and leverage Apple&#39;s main advantage , integration across devices.&lt;br /&gt;Right now there are proprietary solutions starting to emerge in some cars, the ideal situation would be to have some standards independent of the vendor and a profile that you can &quot;log in&quot; independent of the car you use. Microsoft is already trying some of this with limited success.&lt;br /&gt;&lt;br /&gt;I&#39;m pretty confident that this will happen in the next 3-5 years at least with Apple, Google , and others.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;http://cdn0.mos.techradar.futurecdn.net//art/car%20tech/BMW/ConnectedDrive%202103/BMW%20ConnectedDrive%202013%20(10)-580-90.jpg&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;179&quot; src=&quot;http://cdn0.mos.techradar.futurecdn.net//art/car%20tech/BMW/ConnectedDrive%202103/BMW%20ConnectedDrive%202013%20(10)-580-90.jpg&quot; width=&quot;320&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;h4&gt;&lt;/h4&gt;&lt;h4&gt;Wearables ( Quantified self )&lt;/h4&gt;The wearables computer trend started a long ago, but the practical applications appeared only recently with the Apple / Nike+ sensor and its competitors.&lt;br /&gt;&lt;br /&gt;Today the market is full of sensor devices used to track everything related to health , from your physical activity, to your sleep and weight.&lt;br /&gt;&lt;br /&gt;The health monitoring use of computing embedded fabrics with sensors coupled with high powered clout computer is big.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;http://superapple.cz/wp-content/uploads/2013/05/Nike-+-FuelBand-2.jpg&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;180&quot; src=&quot;http://superapple.cz/wp-content/uploads/2013/05/Nike-+-FuelBand-2.jpg&quot; width=&quot;320&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;br /&gt;&lt;h4&gt;The (new) Smart home&lt;/h4&gt;&lt;br /&gt;Home automation has been around for years, but thanks to a convergence of difference technologies, &amp;nbsp;now may actually happen.&lt;br /&gt;&lt;br /&gt;The cloud services reliable centralizing the information; your Phone or tablet acting as an information dashboard and remote control where you can also extend the functionality by adding applications, programs and rules; &amp;nbsp;and the miniaturizationa and commoditization of automation hardware ( Bluetooth sensors, cheap wifi components, small integrated Pico-computer boards ( Arduino, RaspBerry PI , etc)&lt;br /&gt;&lt;br /&gt;Some of the current players in this space include&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;Most systems use the phone as a remote/control centre and a central hub that link the sensors with the server.&lt;br /&gt;&lt;br /&gt;An open API is essential for this to take off , &amp;nbsp;but the potential for malicious hacking in all three scenarios remain very high.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;https://s3.amazonaws.com/ksr/projects/286806/photo-main.jpg?1344449605&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;240&quot; src=&quot;https://s3.amazonaws.com/ksr/projects/286806/photo-main.jpg?1344449605&quot; width=&quot;320&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;br /&gt;I&#39;m interested in what applications will come from this , especially for the home automation side, and in what ways either of this three things ( Car / Home / Body) can be combined in a single service.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;</description>
+        <pubDate>Mon, 05 Aug 2013 13:01:00 -0300</pubDate>
+        <link>http://yourdomain.com/2013/08/05/from-connecting-people-to-connecting.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2013/08/05/from-connecting-people-to-connecting.html</guid>
+        
+        <category>connectivity</category>
+        
+        <category>technology</category>
+        
+        <category>smartphones</category>
+        
+        <category>apple</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>The beautiful game</title>
+        <description>It begins ...&lt;br /&gt;&lt;br /&gt;&lt;object height=&quot;374&quot; width=&quot;448&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://videos.onsmash.com/e/8wNiwGVPzAimFfkY&quot;&gt;&lt;/param&gt;&lt;param name=&quot;allowFullscreen&quot; value=&quot;true&quot;&gt;&lt;/param&gt;&lt;param name=&quot;allowNetworking&quot; value=&quot;all&quot;&gt;&lt;/param&gt;&lt;param name=&quot;allowScriptAccess&quot; value=&quot;always&quot;&gt;&lt;/param&gt;&lt;embed src=&quot;http://videos.onsmash.com/e/8wNiwGVPzAimFfkY&quot; type=&quot;application/x-shockwave-flash&quot; allowFullscreen=&quot;true&quot; allowNetworking=&quot;all&quot; allowScriptAccess=&quot;always&quot; width=&quot;448&quot; height=&quot;374&quot;&gt;&lt;/embed&gt;&lt;/object&gt;</description>
+        <pubDate>Thu, 10 Jun 2010 11:13:00 -0300</pubDate>
+        <link>http://yourdomain.com/2010/06/10/beautiful-game.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2010/06/10/beautiful-game.html</guid>
+        
+        <category>football</category>
+        
+        <category>2010</category>
+        
+        <category>soccer</category>
+        
+        <category>world cup</category>
+        
+        
+      </item>
+    
+      <item>
+        <title></title>
+        <description>Craig Venter talks on TEDMed about the cration of the first synthetic DNA and the possible applications, absolutely fascinating stuff.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;object height=&quot;385&quot; width=&quot;640&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/dvBV2qnSZwo&amp;hl=en_US&amp;fs=1&amp;&quot;&gt;&lt;/param&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot;&gt;&lt;/param&gt;&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot;&gt;&lt;/param&gt;&lt;embed src=&quot;http://www.youtube.com/v/dvBV2qnSZwo&amp;hl=en_US&amp;fs=1&amp;&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;640&quot; height=&quot;385&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;Did yo know that the genetic code contains quotations and email addresses ?&lt;br /&gt;Yeah, I though so...&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://www.medgadget.com/archives/2010/05/breaking_news_craig_venter_and_others_make_synthetic_selfreplicating_bacteria.html&quot;&gt;Orginal article at MedGadget&lt;/a&gt;</description>
+        <pubDate>Fri, 04 Jun 2010 16:07:00 -0300</pubDate>
+        <link>http://yourdomain.com/2010/06/04/craig-venter-talks-on-tedmed-about.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2010/06/04/craig-venter-talks-on-tedmed-about.html</guid>
+        
+        <category>genetics</category>
+        
+        <category>bioogy</category>
+        
+        <category>science</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>&quot;Prepare to be schooled in my Austrian perspective...&quot;</title>
+        <description>&lt;div style=&quot;clear: both;&quot;&gt;&lt;br /&gt;There are very few podcast that I listen regularly; most of them have to do with games, programming or languages. The exception is professor Russell Roberts&#39; brilliant &lt;a href=&quot;http://econtalk.org/&quot;&gt;econtalk&lt;/a&gt; weekly program.&lt;/div&gt;&lt;div style=&quot;clear: both;&quot;&gt;Last week Roberts and producer J&lt;a href=&quot;http://econstories.tv/about.html&quot;&gt;ohn Papola&lt;/a&gt;, unveiled a rap video where&lt;a href=&quot;http://en.wikipedia.org/wiki/John_Maynard_Keynes&quot;&gt;John Keynes&lt;/a&gt; and &lt;a href=&quot;http://en.wikipedia.org/wiki/Friedrich_Hayek&quot;&gt;F.A. Hayek&lt;/a&gt; argue macroeconomics , bubbles and stimulus:&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;&lt;div style=&quot;clear: both;&quot;&gt;&lt;span style=&quot;display: block; margin-bottom: 10px; margin-left: auto; margin-right: auto; margin-top: 0px; text-align: center;&quot;&gt;&lt;object height=&quot;340&quot; width=&quot;560&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/d0nERTFo-Sk&amp;hl=en_US&amp;fs=1&amp;&quot; /&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot; /&gt;&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot; /&gt;&lt;embed allowfullscreen=&quot;true&quot; type=&quot;application/x-shockwave-flash&quot; src=&quot;http://www.youtube.com/v/d0nERTFo-Sk&amp;hl=en_US&amp;fs=1&amp;&quot; allowscriptaccess=&quot;always&quot; height=&quot;340&quot; width=&quot;560&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/span&gt;I think it&#39;s a brilliant and funny work with a few inside jokes ( the bartenders tags is my favorite) , watch the video , it is worth the seven minutes...&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;&lt;br class=&quot;final-break&quot; style=&quot;clear: both;&quot; /&gt;</description>
+        <pubDate>Sun, 31 Jan 2010 02:06:00 -0200</pubDate>
+        <link>http://yourdomain.com/2010/01/31/prepare-to-be-schooled-in-my-austrian.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2010/01/31/prepare-to-be-schooled-in-my-austrian.html</guid>
+        
+        <category>economics</category>
+        
+        <category>crisis</category>
+        
+        <category>humor</category>
+        
+        <category>markets</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>To the Moon and back....*</title>
+        <description>&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;http://4.bp.blogspot.com/_12j-6WCLPuM/SmT6k-wKBbI/AAAAAAAAAMM/Nr_rJ8RQyK4/s1600-h/apollo-11-pin.jpg&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img src=&quot;http://4.bp.blogspot.com/_12j-6WCLPuM/SmT6k-wKBbI/AAAAAAAAAMM/Nr_rJ8RQyK4/s320/apollo-11-pin.jpg&quot; border=&quot;0&quot; /&gt;&lt;/a&gt;&lt;/div&gt;40 years later, I&#39;m still amazed at the bold confidence, craziness, arrogance and courage that setting the moon as a goal had to take.&lt;br /&gt;An incredible achievement.&lt;br /&gt;&lt;br /&gt;You can see it live at:&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://www.wechoosethemoon.org/&quot;&gt;http://www.wechoosethemoon.org/&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;Futurismic &lt;a href=&quot;http://futurismic.com/2009/07/20/forty-years-since-armstrongs-one-small-step-where-next/&quot;&gt;has a very good post&lt;/a&gt; on the future of Space exploration ...&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;(* actually I think this is a pop song )</description>
+        <pubDate>Mon, 20 Jul 2009 20:20:00 -0300</pubDate>
+        <link>http://yourdomain.com/2009/07/20/to-moon-and-back.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2009/07/20/to-moon-and-back.html</guid>
+        
+        <category>technology</category>
+        
+        <category>space</category>
+        
+        <category>NASA</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Upgraded connection</title>
+        <description>I started having problems with the connection speed a couple of months ago. I decided to upgrade to the fastest available for home users in UY,&amp;nbsp; which is a 4Mb Down / 512 K Up. The upload speed still sucks and in this age of collaboration and sharing, it is not only outdated but just unbelievable that this is what toy get for almost 100 dollars.&lt;br /&gt;&lt;br /&gt;&amp;nbsp;&amp;nbsp; Anyway hare are the speedtest.net results for the new connection: &lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;http://www.speedtest.net/result/510431794.png&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;189&quot; src=&quot;http://www.speedtest.net/result/510431794.png&quot; width=&quot;420&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;The connection inside UY is as advertised 4.0/512, and the connection to other countries&amp;nbsp; : Argentina, Brazil and Europe is worst than to the U.S. ( usually around 2Mb down 300k Up).&lt;br /&gt;So it looks that the international link is at top capacity, and the link to Buenos Aires in particular it&#39;s very poor.&lt;br /&gt;Also these are average numbes, I could get slightly better or much worse speed depending on the time and day.</description>
+        <pubDate>Mon, 06 Jul 2009 14:05:00 -0300</pubDate>
+        <link>http://yourdomain.com/2009/07/06/upgraded-connection.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2009/07/06/upgraded-connection.html</guid>
+        
+        <category>connectivity</category>
+        
+        <category>uruguay</category>
+        
+        <category>internet</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Board Games</title>
+        <description>I bought &lt;a bitly=&quot;BITLY_PROCESSED&quot; href=&quot;http://www.wired.com/print/gaming/gamingreviews/magazine/17-04/mf_settlers&quot;&gt;Settlers of Catan&lt;/a&gt; for the kids last year, and we&#39;ve been ejoying a lot since.&lt;br /&gt;Both of my sons prefer playing Settlers over TV and somedays even over Videogames, which is quite an achievement. Plus the game is also entertainig for older kids and adults , so , unlike most board games I can actually play with them. (via &lt;a bitly=&quot;BITLY_PROCESSED&quot; href=&quot;http://wired.com/&quot;&gt;Wired.com&lt;/a&gt;)</description>
+        <pubDate>Tue, 19 May 2009 16:10:00 -0300</pubDate>
+        <link>http://yourdomain.com/2009/05/19/board-games.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2009/05/19/board-games.html</guid>
+        
+        <category>kids</category>
+        
+        <category>games</category>
+        
+        <category>toys</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Amazon as a Publisher</title>
+        <description>This could be big: &lt;a href=&quot;http://www.publishersweekly.com/article/CA6658267.html&quot;&gt;Amazon as a Publisher&lt;/a&gt;. Also reported &lt;a href=&quot;http://futurismic.com/2009/05/14/amateur-hour-is-over-amazon-becomes-a-publisher/&quot;&gt;here&lt;/a&gt;.&lt;br /&gt; &lt;br /&gt;It had to happen sooner or later, it´s surprising but not unexpected if that makes any sense...Amazon has acquired the rights to the first of possible many novels and cut yet another link in the publisher chain...Could potentially be a big year for the book industry and not in a good way for some folks.&lt;br /&gt;&lt;br /&gt;In a post &quot;&lt;a href=&quot;http://www.blackplasticglasses.com/2009/03/30/why-ebooks-must-fail/&quot;&gt;Why Ebooks must fail&lt;/a&gt;&quot; Evan Schnittman explains the effect on the industry:&lt;br /&gt;&lt;blockquote&gt;&lt;em&gt;And therein lies the dilemma… how does the publishing industry fund the creation, editing, design, production, marketing, e-warehousing, and sales of ebooks, if the income isn’t there? How do ebooks cover the huge advances needed to buy books if we cannot generate the cash, especially at their extremely low, discounted prices, cover the advances that an entire industry has come to require? The answer is that ebooks, alone, cannot.&lt;/em&gt;&lt;/blockquote&gt;&lt;p&gt; It&#39;s a very special point of view, of course, to me the answer is , you don&#39;t : As in you don&#39;t fund creation and editing, you do marketing at your own risk (not only when you have a bestseller), you don&#39;t do the huge advances &quot;the industry expects&quot;, because they are unrealistic.&lt;/p&gt;&lt;p&gt;There are also cost savings: No printing, no  distribution, No warehouses ( e-warehousing ? seriously ? ) . . and you can pre-sell an ebook, with extra content same thing that DVDs does today with special editions. &lt;/p&gt;&lt;p&gt;The model must cahange,  and Amazon is doing that for them.&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;br /&gt;&lt;blockquote&gt; &lt;/blockquote&gt;</description>
+        <pubDate>Fri, 15 May 2009 12:39:00 -0300</pubDate>
+        <link>http://yourdomain.com/2009/05/15/amazon-as-publisher.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2009/05/15/amazon-as-publisher.html</guid>
+        
+        <category>internet</category>
+        
+        <category>media</category>
+        
+        <category>ebooks</category>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
